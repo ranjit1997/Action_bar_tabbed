@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradientbackground"
+    android:layout_height="match_parent"
+    tools:context=".Services">
+
+
+    <RelativeLayout
+        android:id="@+id/pregnancy"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/white_border"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="99dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/pregnant_image"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+
+            android:layout_width="129dp"
+            android:layout_height="42dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="120dp"
+            android:text="Pregnancy Tips " />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="190dp"
+        android:background="@drawable/white_border"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/normal"
+
+            android:layout_width="wrap_content"
+            android:layout_height="99dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="129dp"
+            android:layout_height="42dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="120dp"
+            android:text="Normal Disease" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/white_border"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/normal_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="99dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+
+            android:layout_width="129dp"
+            android:layout_height="42dp"
+            android:paddingLeft="25dp"
+            android:paddingTop="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="9dp"
+            android:textStyle="bold"
+            android:layout_marginTop="120dp"
+            android:text="Daily Tips " />
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
