@@ -8,13 +8,15 @@ import android.widget.RelativeLayout;
 
 public class Services extends AppCompatActivity {
 
-    RelativeLayout pregnancy;
+    RelativeLayout pregnancy, daily;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_services);
 
         pregnancy=findViewById(R.id.pregnancy);
+        daily=findViewById(R.id.daily);
 
         pregnancy.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -23,5 +25,14 @@ public class Services extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        daily.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(Services.this,daily_tips.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

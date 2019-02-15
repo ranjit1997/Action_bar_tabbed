@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".daily_tips"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/daily_background">
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="90dp"
+            android:id="@+id/tv_steps"
+            android:textStyle="bold"
+            android:textColor="#c21807"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center"
+            />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginRight="200dp"
+        android:background="@drawable/white_border"
+        android:text="Start Pedometer" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/white_border"
+        android:text="Stop Pedometer" />
+
+
+
+
+</RelativeLayout>
