@@ -6,10 +6,10 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-    <string name="exercise">Exercising on a regular basis helps boost your immune system.
-This means you’ll get sick less often than people who don’t exercise.</string>
-    <string name="food">Eating junk food alters the brain activity in a way similar to how addictive drugs do, such as cocaine and heroin.</string>
-    <string name="vegetables">Tomatoes are very high in the carotenoid Lycopene; eating foods with carotenoids can lower your risk of cancer.</string>
-    <string name="juice">There are no added sugars in 100 percent  juice – just the natural sugars found in whole fruit.</string>
-    <string name="swimming">Swimming has the least impact on your skeletal system compared to any other aerobic exercise.</string>
+    <!--<string name="exercise">Exercising on a regular basis helps boost your immune system.-->
+<!--This means you’ll get sick less often than people who don’t exercise.</string>-->
+    <!--<string name="food">Eating junk food alters the brain activity in a way similar to how addictive drugs do, such as cocaine and heroin.</string>-->
+    <!--<string name="vegetables">Tomatoes are very high in the carotenoid Lycopene; eating foods with carotenoids can lower your risk of cancer.</string>-->
+    <!--<string name="juice">There are no added sugars in 100 percent  juice – just the natural sugars found in whole fruit.</string>-->
+    <!--<string name="swimming">Swimming has the least impact on your skeletal system compared to any other aerobic exercise.</string>-->
 </resources>
