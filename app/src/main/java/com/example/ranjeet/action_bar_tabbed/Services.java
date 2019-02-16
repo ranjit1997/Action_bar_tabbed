@@ -17,8 +17,9 @@ public class Services extends AppCompatActivity {
 
         pregnancy=findViewById(R.id.pregnancy);
         daily=findViewById(R.id.daily);
-
         personal=findViewById(R.id.personal);
+
+
         pregnancy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -35,12 +36,14 @@ public class Services extends AppCompatActivity {
             }
         });
 
+
         personal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(Services.this,daily_tips.class);
+                Intent intent= new Intent(Services.this,Normal_Disease.class);
                 startActivity(intent);
             }
         });
     }
+
 }

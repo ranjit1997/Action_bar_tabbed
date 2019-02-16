@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="fill_parent"
     android:orientation="vertical"
     tools:context=".daily_detail">
 
@@ -25,26 +25,59 @@
             android:layout_height="210dp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:padding="170dp"
+            android:padding="240dp"
             app:centered="true"
             app:fillColor="#616161"
             app:pageColor="#dfdfdf"
             app:snap="false" />
     </RelativeLayout>
 
-    <RelativeLayout
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_border"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:fillViewport="false">
 
-        <TextView
-            android:textSize="16sp"
-            android:text="Ram"
+        <RelativeLayout
+            android:layout_marginTop="5dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            tools:ignore="ExtraText">
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/tvReviewDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:maxLines="1000"
+                android:text=" Exercising on a regular basis helps boost your immune system. This means you’ll get sick less often than people who don’t exercise.I tend to shy away from restaurant chains, but wherever I go, PF Chang&apos;s has solidly good food and, like Starbucks, they&apos;re reliable. We were staying in Boston for a week and after a long day and blah blah blah blah.
+              Psychology is the science of behavior and mind, including conscious and unconscious phenomena, as well as feeling and thought. It is an academic discipline of immense scope and diverse interests that, when taken together, seek an understanding of the emergent properties of brains, and all the variety of epiphenomena they manifest. As a social science it aims to understand individuals and groups by establishing general principles and researching specific cases.
+              In this field, a professional
+              practitioner or researcher is called a psychologist and can be classified as a social, behavioral, or cognitive scientist. Psychologists attempt to understand the role of mental functions in individual and social behavior, while also exploring the physiological and biological processes that underlie cognitive functions and behaviors.
+              Psychologists explore behavior and mental processes, including perception, cognition, attention, emotion (affect), intelligence, phenomenology, motivation (conation), brain functioning, and personality. This extends to interaction between people, such as interpersonal relationships, including psychological resilience, family resilience, and other areas. Psychologists of diverse orientations also consider the unconscious mind.[3] Psychologists employ empirical methods to infer causal and correlational relationships between psychosocial variables. In addition, or in opposition, to employing empirical and deductive methods, some—especially clinical and counseling psychologists—at times rely upon symbolic interpretation and other inductive techniques. Psychology has been described as a  in that medicine tends to draw psychological research via neurology and psychiatry, whereas social sciences most commonly draws directly from sub-disciplines within psychology Psychology is the science of behavior and mind, including conscious and unconscious phenomena, as well as feeling and thought. It is an academic discipline of immense scope and diverse interests that, when taken together, seek an understanding of the emergent properties of brains, and all the variety of epiphenomena they manifest. As a social science it aims to understand individuals and groups by establishing general principles and researching specific cases.
+              In this field, a professional practitioner or researcher is called a psychologist and can be classified as a social, behavioral, or cognitive scientist. Psychologists attempt to understand the role of mental functions in individual and social behavior, while also exploring the physiological and biological processes that underlie cognitive functions and behaviors.Psychology is the science of behavior and mind, including conscious and unconscious phenomena, as well as feeling and thought. It is an academic discipline of immense scope and diverse interests that, when taken together, seek an understanding of the emergent properties of brains, and all the variety of epiphenomena they manifest. As a social science it aims to understand individuals and groups by establishing general principles and researching specific cases.[1][2]
+              In this field, a professional practitioner or researcher is called a psychologist and can be classified as a social, behavioral, or cognitive scientist. Psychologists attempt to understand the role of mental functions in individual and social behavior, while also exploring the physiological and biological processes that underlie cognitive functions and behaviors.Psychology is the science of behavior and mind, including conscious and unconscious phenomena, as well as feeling and thought. It is an academic discipline of immense scope and diverse interests that, when taken together, seek an understanding of the emergent properties of brains, and all the variety of epiphenomena they manifest. As a social science it aims to understand individuals and groups by establishing general principles and researching specific cases.[1][2]
+              In this field, a professional practitioner or researcher is called a psychologist and can be classified as a social, behavioral, or cognitive scientist. Psychologists attempt to understand the role of mental functions in individual and social behavior, while also exploring the physiological and biological processes that underlie cognitive functions and behaviors.Psychology is the science of behavior and mind, including conscious and unconscious phenomena, as well as feeling and thought. It is an academic discipline of immense scope and diverse interests that, when taken together, seek an understanding of the emergent properties of brains, and all the variety of epiphenomena they manifest. As a social science it aims to understand individuals and groups by establishing general principles and researching specific cases.[1][2]
+              In this field, a professional practitioner or researcher is called a psychologist and can be classified as a social, behavioral, or cognitive scientist. Psychologists attempt to understand the role of mental functions in individual and social behavior, while also exploring the physiological and biological processes that underlie cognitive functions and behaviors.Psychology is the science of behavior and mind, including conscious and unconscious phenomena, as well as feeling and thought. It is an academic discipline of immense scope and diverse interests that, when taken together, seek an understanding of the emergent properties of brains, and all the variety of epiphenomena they manifest. As a social science it aims to understand individuals and groups by establishing general principles and researching specific cases.[1][2]
+              In this field, a professional practitioner or researcher is called a psychologist and can be classified as a social, behavioral, or cognitive scientist. Psychologists attempt to understand the role of mental functions in individual and social behavior, while also exploring the physiological and biological processes that underlie cognitive functions and behaviors.Psychology is the science of behavior and mind, including conscious and unconscious phenomena, as well as feeling and thought. It is an academic discipline of immense scope and diverse interests that, when taken together, seek an understanding of the emergent properties of brains, and all the variety of epiphenomena they manifest. As a social science it aims to understand individuals and groups by establishing general principles and researching specific cases.[1][2]
+              In this field, a professional practitioner or researcher is called a psychologist and can be classified as a social, behavioral, or cognitive scientist. Psychologists attempt to understand the role of mental functions in individual and social behavior, while also exploring the physiological and biological processes that underlie cognitive functions and behaviors......."
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:maxLength="1900"
+                android:ellipsize="end"
+                tools:ignore="HardcodedText" />
+
+        </RelativeLayout>
+
+    </ScrollView>
 
 
-    </RelativeLayout>
 
 </RelativeLayout>

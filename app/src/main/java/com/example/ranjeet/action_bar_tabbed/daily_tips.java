@@ -50,6 +50,8 @@ public class daily_tips extends AppCompatActivity implements SensorEventListener
         gridview = (GridView) findViewById(R.id.customgrid5);
         gridview.setAdapter(new CustomAdapter(daily_tips.this, osNameList, osImages));
 
+        //step detector
+
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         accel = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         simpleStepDetector = new StepDetector();

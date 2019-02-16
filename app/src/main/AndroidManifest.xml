@@ -20,7 +20,9 @@
         <activity android:name=".Services" />
         <activity android:name=".daily_tips" />
         <activity android:name=".daily_detail" />
-        <activity android:name=".items"></activity>
+        <activity android:name=".items" />
+        <activity android:name=".Normal_Disease" />
+        <activity android:name=".medinice"></activity>
     </application>
 
 </manifest>

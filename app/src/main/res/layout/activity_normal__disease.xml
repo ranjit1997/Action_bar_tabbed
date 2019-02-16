@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Normal_Disease">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_marginTop="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/userlayout">
+
+        <GridView
+            android:id="@+id/customgrid5"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/os_texts"
+            android:numColumns="1"
+            tools:ignore="UnknownId" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"
+        android:elevation="10dp"
+        android:layout_centerHorizontal="true"
+        android:alpha="0.98"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/background"
+        android:id="@+id/relLayout2">
+
+        <!--<ImageView-->
+            <!--android:id="@+id/ic_magnify2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:src="@drawable/email" />-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="55dp"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:text="SUBMIT"
+            android:singleLine="true"
+            tools:ignore="NotSibling,UnknownId" />
+
+
+    </RelativeLayout>
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="160dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_marginTop="2dp"-->
+        <!--android:layout_marginLeft="185dp"-->
+        <!--android:layout_marginBottom="5dp"-->
+        <!--android:elevation="10dp"-->
+        <!--android:alpha="0.94"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:background="@drawable/background"-->
+        <!--android:id="@+id/relLayout3">-->
+
+        <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/ic_magnify3"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginLeft="20dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:src="@drawable/phoneim"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_centerVertical="true" />&ndash;&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="55dp"-->
+            <!--android:textSize="15dp"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:text="LOCATION"-->
+            <!--android:singleLine="true"-->
+            <!--tools:ignore="NotSibling,UnknownId" />-->
+
+    <!--</RelativeLayout>-->
+
+
+</RelativeLayout>
