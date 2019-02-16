@@ -42,7 +42,8 @@
         android:layout_marginLeft="190dp"
         android:background="@drawable/white_border"
         android:layout_width="145dp"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:id="@+id/personal">
 
         <ImageView
             android:src="@drawable/normal"
