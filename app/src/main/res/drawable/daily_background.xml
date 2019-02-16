@@ -6,7 +6,7 @@
 
         android:startColor="#f2f2f2"
 
-        android:endColor="#66f16b"
+        android:endColor="@color/azur"
 
 
         />
