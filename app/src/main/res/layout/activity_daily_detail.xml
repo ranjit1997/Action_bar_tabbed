@@ -2,38 +2,34 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
     tools:context=".daily_detail">
 
+    <!-- Top Sliding Banners -->
+
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="255dp">
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
 
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true" />
 
-        <ImageView
-            android:id="@+id/os_images"
-            android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:src="@mipmap/exercise" />
-
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="fill_parent"
+            android:layout_height="210dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="170dp"
+            app:centered="true"
+            app:fillColor="#616161"
+            app:pageColor="#dfdfdf"
+            app:snap="false" />
     </RelativeLayout>
-    <ScrollView
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginTop="250dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-
-        </RelativeLayout>
-
-    </ScrollView>
-
-
 
 </RelativeLayout>

@@ -3,19 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/backwaking"
+    android:background="@drawable/backgrond"
     android:layout_height="match_parent"
     tools:context=".First_page">
-    
+
+
     <Button
         android:id="@+id/getStarted"
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:background="@drawable/edittextstyle"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
-        android:layout_marginBottom="0dp"
+        android:layout_marginBottom="5dp"
         android:text="Get Started"
+        android:alpha="0.8"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="0dp" />
 
