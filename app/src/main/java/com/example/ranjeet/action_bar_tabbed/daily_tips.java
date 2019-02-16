@@ -8,6 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.GridView;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class daily_tips extends AppCompatActivity implements SensorEventListener, StepListener{
@@ -18,11 +20,104 @@ public class daily_tips extends AppCompatActivity implements SensorEventListener
     private Button BtnStart,BtnStop;
     private static final String TEXT_NUM_STEPS = "Steps: ";
     private int numSteps;
+    GridView gridview;
+    ImageView IVProfile;
+
+    public static String[] osNameList = {
+            "Android",
+            "iOS",
+            "Linux",
+            "MacOS",
+            "MS DOS",
+            "Symbian",
+            "Windows 10",
+            "Windows XP",
+            "Android",
+            "iOS",
+            "Linux",
+            "MacOS",
+            "MS DOS",
+            "Symbian",
+            "Windows 10",
+            "Windows XP",
+            "Android",
+            "iOS",
+            "Linux",
+            "MacOS",
+            "MS DOS",
+            "Symbian",
+            "Windows 10",
+            "Windows XP",
+            "Android",
+            "iOS",
+            "Linux",
+            "MacOS",
+            "MS DOS",
+            "Symbian",
+            "Windows 10",
+            "Windows XP",
+            "Android",
+            "iOS",
+            "Linux",
+            "MacOS",
+            "MS DOS",
+            "Symbian",
+            "Windows 10",
+            "Windows XP",
+
+    };
+
+    public static int[] osImages = {
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+            R.mipmap.android,
+    };
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_daily_tips);
+
+        gridview = (GridView) findViewById(R.id.customgrid5);
+        gridview.setAdapter(new CustomAdapter(daily_tips.this, osNameList, osImages));
 
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         accel = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);

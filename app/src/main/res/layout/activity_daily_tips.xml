@@ -53,6 +53,29 @@
         android:background="@drawable/white_border"
         android:text="Stop Pedometer" />
 
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_marginTop="290dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/userlayout">
+
+        <GridView
+            android:id="@+id/customgrid5"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/os_texts"
+            android:numColumns="1"
+            tools:ignore="UnknownId" />
+
+
+    </RelativeLayout>
+
 
 
 

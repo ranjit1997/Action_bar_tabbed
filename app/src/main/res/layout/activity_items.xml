@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp">
+
+
+    <RelativeLayout
+        android:backgroundTint="@color/white"
+        android:elevation="5dp"
+        android:layout_width="wrap_content"
+        android:background="@drawable/item_gridview"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/os_images"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_below="@+id/os_images"
+            android:id="@+id/os_texts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$ 6000"
+            android:layout_marginLeft="20dp"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,SpUsage" />
+        <TextView
+            android:layout_below="@+id/os_images"
+            android:id="@+id/os_texts1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is Just Dummy Text"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:textSize="14dp"
+            tools:ignore="HardcodedText,SpUsage" />
+    </RelativeLayout>
+
+</RelativeLayout>

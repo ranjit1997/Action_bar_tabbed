@@ -18,7 +18,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Services" />
-        <activity android:name=".daily_tips"></activity>
+        <activity android:name=".daily_tips" />
+        <activity android:name=".daily_detail" />
+        <activity android:name=".items"></activity>
     </application>
 
 </manifest>
