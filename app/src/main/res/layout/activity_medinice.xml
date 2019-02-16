@@ -44,6 +44,71 @@
             android:textSize="14dp"
             tools:ignore="HardcodedText,SpUsage" />
 
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginBottom="5dp"
+        android:elevation="10dp"
+        android:alpha="0.98"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/background"
+        android:id="@+id/relLayout2">
+
+        <!--<ImageView-->
+            <!--android:id="@+id/ic_magnify2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:src="@drawable/email" />-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="55dp"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:text="FEEDBACK"
+            android:singleLine="true"
+            tools:ignore="NotSibling,UnknownId" />
+
 
     </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="185dp"
+        android:layout_marginBottom="5dp"
+        android:elevation="10dp"
+        android:alpha="0.94"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/background"
+        android:id="@+id/relLayout3">
+
+        <!--<ImageView-->
+            <!--android:id="@+id/ic_magnify3"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:src="@drawable/phoneim"-->
+            <!--android:layout_centerVertical="true" />-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="55dp"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:text="LOCATION"
+            android:singleLine="true"
+            tools:ignore="NotSibling,UnknownId" />
+
+    </RelativeLayout>
+
 </RelativeLayout>

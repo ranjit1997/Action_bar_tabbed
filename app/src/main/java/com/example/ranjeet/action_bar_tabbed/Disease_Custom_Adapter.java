@@ -46,8 +46,8 @@ public class Disease_Custom_Adapter extends BaseAdapter {
 
     public class Holder
     {
-        TextView os_text1;
-        ImageView os_img1;
+        TextView os_text;
+        ImageView os_img;
     }
     @SuppressLint({"ViewHolder", "InflateParams"})
     @Override
@@ -57,10 +57,10 @@ public class Disease_Custom_Adapter extends BaseAdapter {
         View rowView;
 
         rowView = inflater.inflate(R.layout.activity_normal__disease, null);
-        holder.os_text1 = rowView.findViewById(R.id.os_texts1);
-        holder.os_img1 = rowView.findViewById(R.id.os_images1);
-        holder.os_text1.setText(result[position]);
-        holder.os_img1.setImageResource(imageId[position]);
+        holder.os_text = rowView.findViewById(R.id.os_texts1);
+        holder.os_img = rowView.findViewById(R.id.os_images1);
+        holder.os_text.setText(result[position]);
+        holder.os_img.setImageResource(imageId[position]);
 
         rowView.setOnClickListener(new View.OnClickListener() {
 
