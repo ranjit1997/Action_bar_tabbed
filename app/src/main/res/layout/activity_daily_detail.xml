@@ -16,7 +16,7 @@
         <android.support.v4.view.ViewPager
             android:id="@+id/pager"
             android:layout_width="fill_parent"
-            android:layout_height="200dp"
+            android:layout_height="240dp"
             android:layout_alignParentTop="true" />
 
         <com.viewpagerindicator.CirclePageIndicator
@@ -30,6 +30,14 @@
             app:fillColor="#616161"
             app:pageColor="#dfdfdf"
             app:snap="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
     </RelativeLayout>
 
 </RelativeLayout>
